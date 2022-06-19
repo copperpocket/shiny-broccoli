@@ -1,0 +1,27 @@
+{
+  "name": "shiny-broccoli",
+  "version": "1.0.0",
+  "description": "Rock",
+  "main": "index.js",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/copperpocket/shiny-broccoli.git"
+  },
+  "keywords": [],
+  "author": "Michael Mulek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/copperpocket/shiny-broccoli/issues"
+  },
+  "homepage": "https://github.com/copperpocket/shiny-broccoli#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.1",
+    "parcel": "^2.6.1"
+  }
+}
